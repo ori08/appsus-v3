@@ -1,0 +1,37 @@
+.apps-modal {
+    background-color: white;
+    position: absolute;
+    width: 320px;
+    height: 220px;
+    right: 40px;
+    top: 48px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 1px rgb(146, 146, 146);
+    align-items: center;
+    text-align: center;
+    z-index: 100;
+}
+
+.grid {
+    display: none;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.bento-icon {
+    font-size: 40px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.bento-icon:hover {
+    transition: 0.2s;
+    background-color: lightgrey;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+a.active {
+    margin: 0;
+}

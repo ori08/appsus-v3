@@ -1,0 +1,64 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto;
+    background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    margin-block-end: 0px
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    /* margin-block-end: 0px; */
+    font-size: 14px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-family: Roboto;
+}
+
+article {
+    cursor: auto;
+}
+
+h1:empty,
+p:empty {
+    display: none;
+}
+
+.darken {
+    transition: 0.5s;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    pointer-events: none;
+}
+
+.hide {
+    display: none;
+}

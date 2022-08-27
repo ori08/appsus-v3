@@ -1,0 +1,89 @@
+.note-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+.note-txt-input {
+    color: #202124;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+form {
+    position: relative;
+    max-width: 600px;
+    margin: 32px auto 50px auto;
+    border-radius: 7px;
+    box-shadow: 0 1px 7px rgb(128, 128, 128);
+}
+
+form input {
+    width: 95%;
+    border: none;
+    padding: 10px 15px;
+    outline: none;
+    font-size: 1rem;
+    margin-left: 0;
+}
+
+form textarea {
+    font-family: Roboto;
+    width: 95%;
+    border: none;
+    padding: 10px 16px;
+    outline: none;
+    font-size: 0.8rem;
+    resize: none;
+}
+
+.btn-color {
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px black solid;
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
+
+.color-palette {
+    margin: 5px;
+}
+
+.txtarea,
+.img-url,
+.yt-url {
+    display: none;
+    color: #202124;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+.note-selection {
+    position: absolute;
+    right: 10px;
+    top: 13.5px;
+}
+
+.form-controls {
+    position: absolute;
+    right: 20px;
+    top: 8px;
+}
+
+.txtarea {
+    height: 20px;
+}
+
+img.youtube {
+    width: 30px;
+    height: 26px;
+}

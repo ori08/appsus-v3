@@ -1,0 +1,85 @@
+.mail-side-bar {
+    background-color: rgb(246, 248, 252);
+    height: calc(100vh - 70px);
+    width: 100%;
+    flex-basis: 20.5%;
+}
+
+
+.sidebar-icons {
+    padding-left: 28px;
+    height: 36px;
+    width: 80%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.side-bar-padding {
+    padding-top: 18px;
+
+}
+
+.side-bar-btn {
+    margin-left: 6px;
+    font-size: 15.5px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+
+.compose {
+    margin-top: 10px;
+    margin-left: 8px;
+    height: 60px;
+    width: 152px;
+    background-color: rgb(194, 230, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.compose-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.compose-btn {
+    display: flex;
+    align-content: center;
+}
+
+.mail-info {
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    .mail-side-bar {
+        display: none;
+    }
+
+    .sidebar-icons {
+        height: 70px;
+    }
+
+    .email-search-input {
+        margin-left: 90px;
+        max-width: 177px;
+    }
+
+    .app-header {
+        justify-content: center;
+    }
+
+    .sidebar-icons {
+        width: 88vw;
+    }
+
+    .compose {
+        margin-left: 28px;
+
+    }
+}

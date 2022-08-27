@@ -1,0 +1,5 @@
+section.note-list {
+    column-count: 4;
+    column-gap: 5px;
+    column-width: 250px;
+}

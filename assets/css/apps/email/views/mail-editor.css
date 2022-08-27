@@ -1,0 +1,205 @@
+.mailLink {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    /* height: 40px; */
+}
+
+.mail-conatiner {
+    display: flex;
+    flex-direction: column;
+}
+
+.padding {
+    /* width: 100vw; */
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    gap: 10px;
+}
+
+.date {
+    /* flex-basis: 10%; */
+    display: flex;
+    padding-left: 30px;
+    padding-right: 5px;
+    justify-self: flex-end;
+    text-align: right;
+    float: right;
+    opacity: 1;
+}
+
+.username {
+    width: 200px;
+}
+
+.massage {
+    width: 60%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+p.massage,
+p.date {
+    margin: 0;
+}
+
+
+
+input {
+    margin-left: 10px;
+    /* width: 100vw; */
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+textarea {
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+.send-btn {
+    width: 100px;
+    text-align: left;
+    color: white;
+    margin-left: 35px;
+    font-size: 16px;
+}
+
+.send-btn-design {
+    background-color: rgb(12, 87, 208);
+    height: 38px;
+    width: 120px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin-top: 3px;
+    gap: 3px;
+}
+
+.tool-bar {
+    display: flex;
+    gap: 20px;
+    margin-left: 73px;
+    margin-bottom: 40px;
+}
+
+.padding-mail-info {
+    margin-left: 73px;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+}
+
+/* mail editor */
+
+.editor {
+    position: absolute;
+    top: 106px;
+    right: 3%;
+    left: 10%;
+    flex-basis: 76.25%;
+    flex-direction: column;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: rgb(246, 248, 252);
+}
+
+
+.editor-header {
+
+    height: 40px;
+    padding-right: 6px;
+    background-color: rgb(242, 246, 252);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1px 7px rgb(128 128 128);
+}
+
+.editor-header-messege {
+    font-size: 15px;
+    margin-left: 14px;
+    font-weight: 700;
+    color: rgb(47, 65, 102);
+    letter-spacing: 0.6px;
+
+}
+
+.form-editor {
+    position: relative;
+    max-width: 100%;
+    margin: 0px 0 0px 0;
+    padding: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 6px 7px rgb(128 128 128);
+}
+
+
+.editor-input {
+    border-radius: 0px;
+}
+
+.input-text {
+    font-weight: 500;
+    color: rgb(119, 119, 119);
+}
+
+.toolbar-editor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.editor-line {
+    align-items: center;
+    border-bottom: 2px solid rgb(234, 240, 248);
+
+}
+
+.filter {
+    opacity: 0.5;
+}
+
+.filter:hover {
+    opacity: 1;
+}
+
+.mail-icon.delete {
+    opacity: 0;
+}
+
+.mail-icon.delete:hover {
+    opacity: 1;
+}
+
+
+@media (max-width: 600px) {
+
+    form textarea {
+        height: 90px;
+        max-width: 90%;
+    }
+
+    .editor {
+        top: 153px;
+        right: 7%;
+        left: 7%;
+    }
+
+}

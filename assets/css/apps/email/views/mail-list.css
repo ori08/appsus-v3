@@ -1,0 +1,112 @@
+.mail-list-container {
+    background-color: rgb(255, 255, 255);
+
+    width: 73.46%;
+    display: flex;
+    flex-direction: column;
+    /* flex-basis: 73.46%; */
+}
+
+
+.mail-info-container {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    flex-basis: 70.25%;
+    margin-top: 8px;
+}
+
+.side-bar-contect {
+    display: flex;
+    flex-direction: column;
+}
+
+.additional-app {
+    width: 100%;
+    background-color: rgb(246, 248, 252);
+    flex-basis: 5.5%;
+}
+
+
+
+.mail-icon {
+    width: 23px;
+    height: 22px;
+    cursor: pointer;
+    object-fit: contain;
+}
+
+
+.mail-link-icons {
+
+    flex-basis: 8%;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 8px;
+    gap: 3px;
+}
+
+
+.group-editor-mail-list {
+    flex-basis: 8%;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 8px;
+    gap: 3px;
+    display: none;
+}
+
+.mail-link-cotext {
+    display: flex;
+    align-items: center;
+}
+
+a.mail-link-cotext {
+    max-width: 100%;
+}
+
+.email-container {
+    height: 45px;
+    padding-right: 10px;
+    align-items: center;
+    border: 2px solid rgb(246, 248, 252);
+    border-top: none;
+    /* justify-content: space-between; */
+    cursor: pointer;
+
+}
+
+.email-container:hover {
+    box-shadow: 0 2px 7px rgb(128 128 128)
+}
+
+.email-container:hover>.mail-icon.delete {
+    opacity: 0.5;
+}
+
+.email-container:hover>.date {
+    opacity: 0;
+}
+
+.padding-mail-info {
+    padding-top: 50px;
+}
+
+
+@media (max-width: 600px) {
+
+
+
+    .mail-list-container {
+        width: 100%;
+    }
+
+    .mail-info-container {
+        flex-direction: column;
+    }
+
+    .email-container {
+        height: 70px;
+    }
+}

@@ -1,0 +1,63 @@
+.main-layout {
+    /* max-width: 900px; */
+    margin: auto;
+}
+
+.main-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 540px) {
+    .main-layout>*:not(.full) {
+        max-width: 500px;
+        margin-inline-end: auto;
+        margin-inline-start: auto;
+    }
+
+    .note-list {
+        column-count: 1 !important;
+        column-gap: 5px;
+    }
+
+    .note-preview {
+        max-width: 350px !important;
+    }
+
+    .note-form {
+        width: 300px !important;
+    }
+
+    .note-controls {
+        opacity: 1 !important;
+    }
+
+    form.note-editor {
+        top: 700px !important;
+        width: 350px !important;
+    }
+
+    .txtarea2,
+    .note-txt-input2 {
+        width: 320px;
+    }
+
+    .darken {
+        top: 300px;
+    }
+
+}
+
+@media (min-width: 900px) {
+    .main-layout>*:not(.full) {
+        max-width: 860px;
+    }
+}
+
+@media (min-width: 1020px) {
+    /* .main-layout {
+        max-width: 1200px;
+    } */
+}
